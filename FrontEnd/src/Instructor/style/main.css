@@ -1,0 +1,57 @@
+
+
+body {
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.InstructorContainer {
+  width: 100%;
+  background-image: url("../assets/images/book.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  
+}
+
+
+
+
+.InstructorContainer .Ins-Link {
+  margin-left: 45%;
+  background-color: #f76b07;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.text {
+    color: rgb(248, 165, 11);
+    font-size: 50px;
+    padding: 8px 12px;
+    padding-top: 10%;
+    
+    width: 100%;
+    text-align: center;
+}
+.Instructor-course-list {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+.Instructor-course-list .Instructor-course-card {
+    width: 20%;
+    margin: 10px;
+    margin-bottom: 20px;
+}

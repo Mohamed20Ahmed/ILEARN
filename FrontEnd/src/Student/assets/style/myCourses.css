@@ -1,0 +1,31 @@
+.st-courses{
+    background: #ddd;
+    
+    min-height: 50vi;
+}
+
+.btn-outline-brown {
+    background-color: #fff !important;
+    border: 1px solid #94500394 !important;
+    color: #94500394;
+}
+
+.btn-outline-brown:hover {
+    background-color: #94500394 !important;
+    border: 2px solid #fff !important;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(to right bottom, #91919191, #94500394);
+}

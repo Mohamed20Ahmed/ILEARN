@@ -1,0 +1,120 @@
+.admin-navbar {
+  background: black;
+  opacity: 0.8;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: block;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.351);
+  padding: 10px;
+  z-index: 1;
+}
+
+#admin-logo {
+  text-decoration: none;
+  color: rgb(248, 165, 11);
+  text-transform: uppercase;
+  margin-left: 27px;
+  font-size: 40px;
+}
+
+#admin-logo span {
+  color: #fff;
+  text-transform: lowercase;
+}
+
+.admin-navbar-collapse {
+  float: right;
+  margin-right: 20%;
+}
+
+.admin-nav-link,
+.admin-log-link {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  float: left;
+}
+.active {
+  background-color: gray;
+  color: white;
+}
+.admin-logout {
+  background-color: #f76b07;
+  display: inline;
+  float: right;
+  margin-right: 5%;
+  border-radius: 16px;
+}
+.admin-nav-link:hover {
+  background-color: #f76b07;
+}
+.admin-logout a:hover {
+  color: black;
+}
+
+.admin-navbar .admin-icon {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  margin-right: 10%;
+}
+.admin-icon {
+  background-color: #f76b07;
+  border: 0;
+  border-radius: 5px;
+  align-items: center;
+}
+.admin-icon:hover {
+  color: black;
+}
+@media screen and (max-width: 1200px) {
+  .admin-navbar-collapse {
+    display: none;
+  }
+  .admin-navbar button.admin-icon {
+    display: inline;
+    float: right;
+  }
+
+  .admin-nav-link {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .admin-nav-link:first-child {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .admin-navbar-collapse.responsive {
+    position: relative;
+  }
+  .admin-navbar-collapse.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .admin-navbar-collapse.responsive {
+    display: block;
+    text-align: left;
+  }
+  .admin-navbar-collapse {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+#admin-navbar {
+  transition: 0.4s;
+}
+#admin-navbar #admin-logo {
+  transition: 0.4s;
+}

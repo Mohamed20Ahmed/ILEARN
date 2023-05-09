@@ -1,0 +1,41 @@
+.Instructor-course-card{
+    width: 25% ;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.Instructor-course-card .Instructor-card-top{
+    width: 100% ;
+    height: 250px;
+}
+.Instructor-course-card .Instructor-card-top img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.Instructor-course-card .Instructor-card-info  {
+    padding :15px;
+    text-align: center;
+    
+}
+.Instructor-course-card  .Instructor-card-info .ins-title {
+    text-align: center;
+    font-weight: bolder;
+    color: #f76b07;
+}
+.Instructor-course-card .Instructor-card-info .ins-info {
+    color: brown;
+    font-size: 12px;
+    margin: 10px;
+    
+}
+.Instructor-course-card .Instructor-card-info .ins-btn {
+    color: white;
+    background-color: #f76b07;
+    text-align: center;
+    border: 0;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
