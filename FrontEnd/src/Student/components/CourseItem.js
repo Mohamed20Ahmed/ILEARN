@@ -52,16 +52,19 @@ function CourseItem(props) {
               <i className="fa-solid fa-star"></i>
               <i className="fa-solid fa-star"></i>
             </div>
-
-            <button
-              type="button"
-              className="btn btn-success"
-              onClick={(e) => {
-                enrollCourse(props.code);
-              }}
-            >
-              Enroll
-            </button>
+            {auth && (
+              <button
+                type="button"
+                className="btn btn-success"
+                // data-bs-toggle="modal"
+                // data-bs-target="#enroll"
+                onClick={() => {
+                  enrollCourse(props.code);
+                }}
+              >
+                Enroll
+              </button>
+            )}
           </div>
         </div>
       </div>
